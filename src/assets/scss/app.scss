@@ -49,10 +49,50 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-$color1 = rgb(255, 124, 20) //#FF7C14
-$color2 = rbg(167, 167, 167) //#A7A7A7
-$color3 = rgb(32, 32, 32) //#202020
-$color4 = rgb(255, 255, 255) //#FFFFFF
-$color5 = rgb(255, 114, 0) //#FF7200
+$color1: rgb(255, 124, 20); //#FF7C14
+$color2: rgb(167, 167, 167); //#A7A7A7
+$color3: rgb(32, 32, 32); //#202020
+$color4: rgb(255, 255, 255); //#FFFFFF
+$color5: rgb(255, 114, 0); //#FF7200
 
-$font1 = 'Open Sans', sans-serif;
+$font1: 'Open Sans', sans-serif;
+
+header {
+
+}
+main {
+
+
+  .BYOWok {
+
+  }
+
+  .order {
+
+  }
+
+  .favoritesProtein {
+
+  }
+
+  .favoritesStyle {
+
+  }
+
+  .saladRolls {
+
+  }
+
+  .quote {
+
+  }
+
+}
+footer {
+  .map {
+
+  }
+  .contact {
+
+  }
+}
