@@ -235,21 +235,8 @@ main {
 
   }
 
-  .favoritesProtein {
-    .divider div {
-      padding-top: 5px;
-      padding-right: 3px;
-      font-size: 30px;
-    }
-
-    .columns {
-      padding-right: 0rem;
-      padding-left: 0;
-    }
-
-  }
-
   .favoritesStyle {
+
     .divider div {
       padding-top: 10px;
       font-size: 25px;
@@ -257,6 +244,9 @@ main {
     .columns {
       padding-right: 0rem;
       padding-left: 0;
+    }
+    ul {
+      padding-left: 15%;
     }
     .small-8 {
       padding-left: 5%;
