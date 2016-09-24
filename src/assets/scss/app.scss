@@ -82,7 +82,7 @@ h4 {
 }
 
 hr {
-  width: 90%;
+
   background: url('../../assets/img/rockywall.png');
   border: 10px solid $color5;
   margin-top: 45px;
@@ -98,6 +98,7 @@ li {
   border-left: 5px solid $color1;
   margin-left: -5px;
   padding-left: 5px;
+  font-size: 1rem;
 }
 span {
   opacity: .3;
@@ -113,10 +114,12 @@ dt {
 }
 body {
   font-family: $font1;
-
+  font-size: 16px;
 
 header {
-  height: 100vh;
+  min-height: 95vh;
+  max-width: 100%;
+  overflow: hidden;
   background: linear-gradient($color5, $color5),
   url('../../assets/img/rockywall.png');
   color: $color4;
@@ -126,7 +129,7 @@ header {
   }
 
   .logo {
-    margin-top: -20vh;
+    margin-top: 5vh;
   }
 
   .order {
@@ -141,8 +144,25 @@ header {
       padding: .25rem;
     }
   }
+  .orderBar {
+    background: $color6;
+    position: fixed;
+    z-index: 1000;
+    height: 60px;
+    height: 10vh;
+    bottom: 0;
+    padding: 2px 0;
+  }
+  .columns:nth-of-type(3),
+  .columns:nth-of-type(4) {
+    padding-top: 10px;
+  }
 }
 main {
+  max-width: 100%;
+  overflow: hidden;
+
+
   .divider {
     margin-left: auto;
     margin-right: auto;
@@ -153,7 +173,6 @@ main {
     border: 5px solid $color4;
     div {
       margin: 3px auto auto 3px;
-      padding-top: 2px;
       width: 60px;
       height: 60px;
       background: $color1;
@@ -332,7 +351,9 @@ main {
     hr {
      margin-top: 0;
     }
-
+    a {
+      color: $color1;
+    }
     p {
       margin-left: 5%;
       margin-right: 5%;
@@ -366,6 +387,8 @@ main {
 footer {
   background: #1a1a1a;
   font-size: 1.15rem;
+  margin-bottom: 60px;
+  margin-bottom: 10vh;
   .columns {
     padding: 0;
   }
